@@ -58,14 +58,14 @@ rel="stylesheet">
 
 <body>
 
-<header class="pb-3 pt-4">
+<header class="pb-4 pt-4">
     <div class="container col-xxl-8 px-5 px-lg-0">
         <div class="row align-items-center">
             <div class="col-4 text-start">
                 <a href="./" style="color: inherit; text-decoration: none;">
                     <div class="row align-items-center">
                         <div class="col-lg-3 border-end no-border-md-down ps-0">
-                            <img src="./images/NDIF_Acr_color.png" class="d-block img-fluid" width="100" height="100"
+                            <img src="./images/NDIF_Acr_color.png" class="d-block img-fluid" width="100"
                                 loading="lazy">
                         </div>
                         <div class="col-md-9 my-auto d-none d-lg-block">
