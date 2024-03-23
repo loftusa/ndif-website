@@ -71,7 +71,7 @@ rel="stylesheet">
                         <div class="col-md-9 my-auto d-none d-lg-block">
                             <h5 style="margin-bottom: 0 !important; color: #656565; margin-bottom: 0 !important; line-height: 0.9; font-weight: 700 !important;">
                                 National Deep<br />Inference Fabric
-                            </h6>
+                            </h5>
                         </div>
                     </div>
                 </a>

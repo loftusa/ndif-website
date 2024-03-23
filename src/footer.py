@@ -5,13 +5,18 @@ def footer():
     <footer class="container col-xxl-8 py-5 bg-body-secondary">
         <div class="row">
             <div class="col-12 col-md">
-                <a href="https://www.northeastern.edu" class="text-decoration-none">
-                    <img src="./images/northeastern.svg" alt="Northeastern University" style="width:48px;" class="float-left align-text-top">
-                    <small class="d-inline-block text-body-secondary align-text-top mb-2">
+                <a href="./" style="color: inherit; text-decoration: none;">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 ps-3">
+                            <img src="./images/northeastern.svg" alt="Northeastern University" style="width:48px;">
+                        </div>
+                        <div class="col-md-10 my-auto d-none d-lg-block">
+                            <small class="d-inline-block link-secondary text-decoration-none align-text-top mb-2" style="margin-bottom: 0 !important;">
                     NDIF is developed at<br>
                     Northeastern University
                     </small>
-
+                        </div>
+                    </div>
                 </a>
                 <small class="d-block mb-3 text-body-secondary">© 2024 NDIF</small>
             </div>
