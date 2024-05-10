@@ -4,6 +4,41 @@ body {
     line-height: 175%;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+}
+
+#v-pills-tab .nav-link {
+    flex-grow: 1;
+    margin-bottom: 2px;
+    /* Adjust spacing between tabs */
+    background-color: #E7E7E7;
+    color: #100F0F;
+
+    text-align: center; /* Center-align the text */
+    justify-content: center; /* Use with d-flex to center content horizontally */
+    display: flex; /* Enables flexbox properties */
+    align-items: center; /* Centers the content vertically */
+}
+
+#v-pills-tab .nav-link.active {
+    background-color: #4385BE;
+    color: #FFFCF0;
+}
+
+#v-pills-tab {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Ensure the nav fills the parent's height */
+}
+
+.secondary {
+    background-color: #E7E7E7;
+}
+
 .nav-item .nav-link.active {
     font-weight: 500;
 }
@@ -11,16 +46,16 @@ body {
 .action-button:hover {
     background-color: rgb(108, 117, 125) !important;
     border-color: rgb(108, 117, 125) !important;
-    border-radius: var(--bs-border-radius-pill)!important;
+    border-radius: var(--bs-border-radius-pill) !important;
     color: #ffffff !important;
-} 
+}
 
 [data-bs-theme="light"] {
-    
+
     .btn-primary {
         --bs-btn-color: var(--bs-body-bg);
         --bs-btn-bg: #4385BE !important;
-        --bs-btn-border-color: #4385BE !important;   
+        --bs-btn-border-color: #4385BE !important;
 
         --bs-btn-hover-bg: #205ea6 !important;
         --bs-btn-hover-border-color: #205ea6 !important;
@@ -28,8 +63,8 @@ body {
     }
 
     .btn-primary:hover {
-        --bs-btn-bg: #205ea6  !important;
-        --bs-btn-border-color: #205ea6  !important;
+        --bs-btn-bg: #205ea6 !important;
+        --bs-btn-border-color: #205ea6 !important;
     }
 }
 
@@ -39,7 +74,7 @@ body {
     --bs-body-bg: #FFFCF0;
     --bs-body-bg-rgb: #{to-rgb($blue)};
     --bs-tertiary-bg: #{$blue-600};
-    
+
     .bg-secondary {
         background-color: #F2F0E5 !important;
     }
@@ -47,10 +82,11 @@ body {
     .btn-primary {
         --bs-btn-color: var(--bs-body-bg);
         --bs-btn-bg: #4385BE;
-        --bs-btn-border-color: #4385BE;   
+        --bs-btn-border-color: #4385BE;
     }
 
-    .nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
         --bs-active-color: #4385BE !important;
         /* --bs-active-bg: #FFFCF0; */
         color: #FFFCF0;
@@ -61,4 +97,3 @@ body {
         color: #100F0F;
     }
 }
-  

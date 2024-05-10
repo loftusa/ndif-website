@@ -47,83 +47,107 @@
       </div>
     </div>
 
-    <div class="col-xxl-10 px-2 px-lg-0 pt-5 text-center container">
-      <div class="row d-flex" style="height: 100%;">
-        <div class="col-md-3">
-          <!-- Tabs nav -->
-          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="flex-grow: 1;">
-          <a class="nav-link active d-flex align-items-center"  id="v-pills-deltaai-tab" data-bs-toggle="pill" href="#v-pills-deltaai" role="tab" aria-controls="v-pills-deltaai" aria-selected="true">What is Delta AI?</a>
-          <a class="nav-link d-flex align-items-center" id="v-pills-nnsight-tab" data-bs-toggle="pill" href="#v-pills-nnsight" role="tab" aria-controls="v-pills-nnsight" aria-selected="false">What is NNsight?</a>
-          <a class="nav-link d-flex align-items-center" id="v-pills-pitun-tab" data-bs-toggle="pill" href="#v-pills-pitun" role="tab" aria-controls="v-pills-pitun" aria-selected="false">What is PIT-UN?</a>
-        </div>
-        </div>
-        <div class="col-md-9">
-          <!-- Tab content -->
-          <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-deltaai" role="tabpanel"
-              aria-labelledby="v-pills-deltaai-tab">
-              <div class="card  p-3">
-                <div class="card-body text-start">
-                  <p class="card-text">
-                    NDIF is powered by the high-performance computing capacity of Delta AI, a GPU computing cluster
-                    being created at NCSA in 2024.
-                    <br><br>
-                    Taking advantage of next-generation NVIDIA graphics processors,
-                    DeltaAI is part of <a
-                      href="https://www.ncsa.illinois.edu/research/project-highlights/delta/">Delta</a>,
-                    which is the highest-performance GPU computing resource
-                    in the National Science Foundation portfolio. DeltaAI is
-                    tailored for artificial intelligence workloads such as
-                    Large Language Models.
-                  </p>
-                  <a href="https://www.ncsa.illinois.edu/research/project-highlights/delta/" class="btn btn-primary">Go
-                    to
-                    NCSA Delta</a>
-                </div>
+    
+  </section>
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+</div>
+
+  <section class="col-xxl-8 px-3 px-lg-0 py-5 mb-5 container">
+
+  <div class="col-xxl-11 pt-5 text-center container">
+    <div class="row d-flex" style="height: 100%;">
+      <div class="col-md-3">
+        <!-- Tabs nav -->
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="flex-grow: 1;">
+        <a class="nav-link active d-flex align-items-center"  id="v-pills-deltaai-tab" data-bs-toggle="pill" href="#v-pills-deltaai" role="tab" aria-controls="v-pills-deltaai" aria-selected="true">What is Delta AI?</a>
+        <a class="nav-link d-flex align-items-center" id="v-pills-nnsight-tab" data-bs-toggle="pill" href="#v-pills-nnsight" role="tab" aria-controls="v-pills-nnsight" aria-selected="false">What is NNsight?</a>
+        <a class="nav-link d-flex align-items-center" id="v-pills-pitun-tab" data-bs-toggle="pill" href="#v-pills-pitun" role="tab" aria-controls="v-pills-pitun" aria-selected="false">What is PIT-UN?</a>
+      </div>
+      </div>
+      <div class="col-md-9">
+        <!-- Tab content -->
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-deltaai" role="tabpanel"
+            aria-labelledby="v-pills-deltaai-tab">
+            <div class="card  p-3">
+              <div class="card-body text-start">
+                <p class="card-text">
+                  NDIF is powered by the high-performance computing capacity of Delta AI, a GPU computing cluster
+                  being created at NCSA in 2024.
+                  <br><br>
+                  Taking advantage of next-generation NVIDIA graphics processors,
+                  DeltaAI is part of <a
+                    href="https://www.ncsa.illinois.edu/research/project-highlights/delta/">Delta</a>,
+                  which is the highest-performance GPU computing resource
+                  in the National Science Foundation portfolio. DeltaAI is
+                  tailored for artificial intelligence workloads such as
+                  Large Language Models.
+                </p>
+                <a href="https://www.ncsa.illinois.edu/research/project-highlights/delta/" class="btn btn-primary">Go
+                  to
+                  NCSA Delta</a>
               </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-nnsight" role="tabpanel" aria-labelledby="v-pills-nnsight-tab">
-              <div class="card  p-3">
-                <div class="card-body text-start">
-                  <p class="card-text">The
-                    <a href="https://nnsight.net/">NNsight library</a>
-                    is an open-source AI toolkit being developed by NDIF to support
-                    research methods on AI models.
-                    <br><br>
-                    Building on the popular <a href="https://pytorch.org/">pytorch</a> ecosystem,
-                    NNsight allows programmers to create intervention code that inspects, modifies,
-                    and customizes AI model computations. The library enables reproducible experiments to
-                    be executed both on the shared large-scale fabric and on a scientsts own smaller-scale
-                    computers.
-                  </p>
-                  <a href="https://nnsight.net/" class="btn btn-primary">Go to NNsight</a>
-                </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-nnsight" role="tabpanel" aria-labelledby="v-pills-nnsight-tab">
+            <div class="card  p-3">
+              <div class="card-body text-start">
+                <p class="card-text">The
+                  <a href="https://nnsight.net/">NNsight library</a>
+                  is an open-source AI toolkit being developed by NDIF to support
+                  research methods on AI models.
+                  <br><br>
+                  Building on the popular <a href="https://pytorch.org/">pytorch</a> ecosystem,
+                  NNsight allows programmers to create intervention code that inspects, modifies,
+                  and customizes AI model computations. The library enables reproducible experiments to
+                  be executed both on the shared large-scale fabric and on a scientsts own smaller-scale
+                  computers.
+                </p>
+                <a href="https://nnsight.net/" class="btn btn-primary">Go to NNsight</a>
               </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-pitun" role="tabpanel" aria-labelledby="v-pills-pitun-tab">
-              <div class="card  p-3">
-                <div class="card-body text-start">
-                  <p class="card-text">NDIF is partnering with the
-                    Public Interest Technology University Network
-                    (<a href="https://pitcases.org/">PIT-UN</a>),
-                    a consortium of 63 universities and colleges, to conduct needs-gathering workshops and tutorials
-                    open to all fields affected by AI.
-                    <br><br>
-                    We are <a href="./start.html">seeking participation</a> of not only computer scientists,
-                    but also all researchers in science and social science who wish to investigate the mechanisms
-                    of how large-scale AI impacts their fields.
-                  </p>
-                  <a href="https://pitcases.org/" class="btn btn-primary">Go to PIT-UN</a>
-                </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-pitun" role="tabpanel" aria-labelledby="v-pills-pitun-tab">
+            <div class="card  p-3">
+              <div class="card-body text-start">
+                <p class="card-text">NDIF is partnering with the
+                  Public Interest Technology University Network
+                  (<a href="https://pitcases.org/">PIT-UN</a>),
+                  a consortium of 63 universities and colleges, to conduct needs-gathering workshops and tutorials
+                  open to all fields affected by AI.
+                  <br><br>
+                  We are <a href="./start.html">seeking participation</a> of not only computer scientists,
+                  but also all researchers in science and social science who wish to investigate the mechanisms
+                  of how large-scale AI impacts their fields.
+                </p>
+                <a href="https://pitcases.org/" class="btn btn-primary">Go to PIT-UN</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-
+  </div>
+  
+</section>
   <section class="col-xxl-8 px-3 px-lg-0 py-5 mb-5 container">
 
     <div class="border-bottom pb-3">

@@ -16,6 +16,11 @@ body {
     /* Adjust spacing between tabs */
     background-color: #E7E7E7;
     color: #100F0F;
+
+    text-align: center; /* Center-align the text */
+    justify-content: center; /* Use with d-flex to center content horizontally */
+    display: flex; /* Enables flexbox properties */
+    align-items: center; /* Centers the content vertically */
 }
 
 #v-pills-tab .nav-link.active {
